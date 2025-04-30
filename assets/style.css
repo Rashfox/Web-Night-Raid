@@ -1,9 +1,11 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-image: url(image/bg2.jpg);
+    color: white;
 }
 header {
-    color: rgb(0, 0, 0);
+    background-color: grey;
 }
 header a {
     margin-left: 10%;
@@ -14,6 +16,7 @@ header a {
 }
 .menu {
     padding: 10px 20px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;

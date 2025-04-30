@@ -1,11 +1,10 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: url(image/bg2.jpg);
+    background-image: url(image/bg.jpg);
+    background-position: center;
+    backdrop-filter: blur(8px);
     color: white;
-}
-header {
-    background-color: grey;
 }
 header a {
     margin-left: 10%;
@@ -71,7 +70,7 @@ footer{
     text-align: center;
 }
 div.kolab img{
-    width: 100px;
+    height: 100px;
 }
 @media screen and (max-width: 650px) {
     nav {

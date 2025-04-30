@@ -55,7 +55,7 @@
                     <tr>
                         <td>Username</td>
                         <td>:</td>
-                        <td><input type="text" name="Username" placeholder="masukan nama anda"></td>
+                        <td><input type="text" name="Username" id="username" placeholder="masukan nama anda"></td>
                     </tr>
                     <tr>
                         <td>Dokumen</td>
@@ -63,7 +63,7 @@
                         <td><input type="file" name="dokumen"></td>
                     </tr>
                     <tr>
-                        <td class="center" colspan="3"><input type="submit" value="kirim"></td>
+                        <td class="center" colspan="3"><input type="submit" id="kirim" value="kirim" onclick="pesan()"></td>
                     </tr>
                 </table>
             </form>  
@@ -72,5 +72,6 @@
     <footer>
         <p>&copy; 2025 Night Raid. All Right Reserved.</p>
     </footer>
+    <script src="assets/script.js"></script>
 </body>
 </html>

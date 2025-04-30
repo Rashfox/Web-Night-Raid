@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: sans-serif;
-}
-header {
-    color: rgb(0, 0, 0);
+    background-image: url(image/bg.jpg);
+    background-position: center;
+    backdrop-filter: blur(8px);
+    color: white;
 }
 header a {
     margin-left: 10%;
@@ -14,6 +15,7 @@ header a {
 }
 .menu {
     padding: 10px 20px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +70,7 @@ footer{
     text-align: center;
 }
 div.kolab img{
-    width: 100px;
+    height: 100px;
 }
 @media screen and (max-width: 650px) {
     nav {

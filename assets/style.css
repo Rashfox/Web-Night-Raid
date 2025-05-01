@@ -25,7 +25,7 @@ header a {
 .menu:hover{
     background-color: black;
     color: red;
-} 
+}
 .kegiatan{
     text-align: center;
     display: flex;
@@ -62,16 +62,19 @@ main{
     text-align: justify;
     display: grid;
 }
-.tentang {
+.tentang, main h2, .kontak h2, .center{
     text-align: center;
 }
-.tentang img {
-    width: 300px;
-    height: 200px;
+.kerja {
+    text-align: justify;
 }
-main img{
+.tentang img {
+    width: 80%;
+}
+main p img{
     float: left;
     padding-right: 10px;
+    width: 50%;
 }
 main,section {
     background-color: rgb(241, 85, 85, 0.1);
@@ -80,18 +83,12 @@ main,section {
 table{
     margin: auto;
 }
-.kontak h2{
-    text-align: center;
-}
 .kontak p {
     text-align: justify;
     padding: 0 10%;
 }
 .pengaduan tr,td {
     text-align: left;
-}
-.center {
-    text-align: center;
 }
 input[type="submit"]{
     width: 50%;
@@ -116,14 +113,23 @@ div.kolab img{
     height: 100px;
 }
 @media screen and (max-width: 650px) {
-    nav {
-        float: none;
+    body{
+        margin-right: -11.5%;
     }
-    main img {
-        width: 200px;
+    main p img {
+        width: 50%;
+    }
+    .tentang img{
+        width: 80%;
     }
     .kegiatan img{
         width: 80%;
         padding: 10px;
+    }
+    .kontak table{
+        text-align: center;
+    }
+    .kontak tr {
+        text-align: left;
     }
 }

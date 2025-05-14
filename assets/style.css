@@ -25,6 +25,40 @@ header a {
 .menu:hover{
     background-color: black;
     color: red;
+}
+a:hover, h3{
+    color: red;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+nav ul.nav, .topnav #nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    gap: 10px;
+    padding: 10px;
+    height: 50px;
+}
+main{
+    text-align: justify;
+}
+main p{
+    padding: 0 10%;
+}
+main img{
+    float: left;
+    padding-right: 10px;
+}
+main,section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin: 0 15%;
+}
+.tentang, main h1, .kontak h2, .center{
+    text-align: center;
 } 
 .kegiatan{
     text-align: center;
@@ -40,33 +74,27 @@ header a {
     width: 80%;
 }
 .kegiatan em{
-    margin: 0 10%;
-}
-a:hover, h3{
-    color: red;
-}
-a:link, a:visited{
-    text-decoration: none;
-    color: black;
+    padding: 0 10%;
 }
 span{
     color: red;
 }
-nav ul.nav {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    gap: 10px;
-    padding: 10px;
-    height: 50px;
-}
-main{
-    margin: 0 15%;
+.kerja {
     text-align: justify;
 }
+.tentang img { 
+    width: 350px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+.kontak h2{
+    text-align: center;
+}
+.kontak p, .kontak h4{
+    text-align: justify;
+    padding: 0 10%;
+}
 section{
-    margin: 0 15%;
     margin-bottom: 20px;
 }
 .kolab{
@@ -76,48 +104,12 @@ section{
 div.kolab img{
     height: 100px;
 }
-.tentang, main h2, .kontak h2, .center{
-    text-align: center;
-}
-.kerja {
-    text-align: justify;
-}
-.tentang img {
-    width: 300px;
-    height: 200px;
-    width: 50%;
-    margin-bottom: 20px;
-}
-main p{
-    margin: 0 10px;
-}
-main img{
-    float: left;
-    padding-right: 10px;
-}
-main,section {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-}
-.kontak h2{
-    text-align: center;
-}
-.kontak p, .kontak h4{
-    text-align: justify;
-    padding: 0 10%;
-}
 section h3{
     text-align: center;
-}
-h4 {
-    margin: auto 10px;
 }
 .center p {
     text-align: left;
     margin: 7px 25%;
-}
-.center {
-    text-align: center;
 }
 input[type="submit"]{
     width: 30%;
@@ -133,36 +125,42 @@ footer{
     padding: 1px;
     text-align: center;
 }
-div.kolab img{
-    height: 100px;
-}
 @media screen and (max-width: 800px) {
     .center p {
         text-align: left;
         margin: 10px 15%;
     }
-    /* input{
-        display: flex;
-        margin: 10px 0;
-    } */
+    .tentang img{
+        width: 300px;
+        height: 230px;
+        margin-bottom: 20px;
+    }
     input[type="submit"]{
         margin: 0 auto;
         margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 450px) {
-    /* body{
-        margin-right: -11.5%;
-    } */
+    main,section {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        margin: 0 5%;
+    }
     main p{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         float: none;
+        gap: 10px;
     }
     main img {
         width: 200px;
+    }
+    .tentang img {
+        width: 80%;
+        height: 30%;
+        margin-bottom: 20px;
     }
     .kegiatan img{
         width: 80%;
@@ -187,4 +185,7 @@ div.kolab img{
         margin: 0 auto;
         margin-bottom: 20px;
     }
+}
+@media screen and (max-width: 380px) {
+    
 }

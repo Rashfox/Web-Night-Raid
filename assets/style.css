@@ -25,7 +25,8 @@ header a {
 .menu:hover{
     background-color: black;
     color: red;
-}
+<<<<<<< Updated upstream
+} 
 .kegiatan{
     text-align: center;
     display: flex;
@@ -37,6 +38,8 @@ header a {
 .kegiatan img {
     flex: 1;
     width: 80%;
+=======
+>>>>>>> Stashed changes
 }
 a:hover, h3{
     color: red;
@@ -60,47 +63,88 @@ nav ul.nav {
 main{
     margin: 0 15%;
     text-align: justify;
+    display: grid;
+}
+<<<<<<< Updated upstream
+.tentang {
+=======
+.kontak p {
+    text-align: justify;
+    padding: 0 10px;
+}
+section{
+    margin: 0 15%;
+    margin-bottom: 20px;
+}
+.kolab{
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.kolab img{
+    height: 100px;
 }
 .tentang, main h2, .kontak h2, .center{
+>>>>>>> Stashed changes
     text-align: center;
 }
-.kerja {
-    text-align: justify;
-}
 .tentang img {
+<<<<<<< Updated upstream
+    width: 300px;
+    height: 200px;
+=======
     width: 50%;
+    margin-bottom: 20px;
+>>>>>>> Stashed changes
 }
-main p img{
+main img{
     float: left;
     padding-right: 10px;
-    width: 50%;
 }
 main,section {
-    background-color: rgb(241, 85, 85, 0.1);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
 }
-table{
-    margin: auto;
+.kegiatan{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+<<<<<<< Updated upstream
+.kontak h2{
+    text-align: center;
 }
 .kontak p {
     text-align: justify;
     padding: 0 10%;
+=======
+.kegiatan img {
+    flex: 1;
+    width: 80%;
+>>>>>>> Stashed changes
 }
-.pengaduan tr,td {
+section h3{
+    text-align: center;
+}
+h4 {
+    margin: auto 10px;
+}
+.center p {
     text-align: left;
+    margin: 7px 25%;
+}
+.center {
+    text-align: center;
 }
 input[type="submit"]{
     width: 50%;
+    margin-bottom: 20px;
 }
 input[type="submit"]:hover {
     background-color: black;
     color: red;
-}
-section{
-    margin: 0 15%;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 20px;
 }
 footer{
     background-color: black;
@@ -108,36 +152,62 @@ footer{
     padding: 1px;
     text-align: center;
 }
+<<<<<<< Updated upstream
 div.kolab img{
     height: 100px;
 }
 @media screen and (max-width: 650px) {
-    body{
-        margin-right: -11.5%;
+    nav {
+=======
+@media screen and (max-width: 800px) {
+    .center p {
+        text-align: left;
+        margin: 10px 15%;
     }
+    /* input{
+        display: flex;
+        margin: 10px 0;
+    } */
+    input[type="submit"]{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    /* body{
+        margin-right: -11.5%;
+    } */
     main p{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+>>>>>>> Stashed changes
         float: none;
-        margin: auto;
     }
-    main p img{
-        width: 80%;
-        padding: 10px;
-    }
-    .tentang img{
-        width: 80%;
+    main img {
+        width: 200px;
     }
     .kegiatan img{
         width: 80%;
         padding: 10px;
     }
-    .kontak table{
-        margin: 10px auto;
+<<<<<<< Updated upstream
+=======
+    h4 {
+        margin: auto 10px;
     }
-    .kontak tr {
+    .center p {
         text-align: left;
+        margin: 7px 10px;
     }
+    input{
+        display: flex;
+        margin: 10px 0;
+    }
+    input[type="submit"]{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+>>>>>>> Stashed changes
 }

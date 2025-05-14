@@ -25,7 +25,6 @@ header a {
 .menu:hover{
     background-color: black;
     color: red;
-<<<<<<< Updated upstream
 } 
 .kegiatan{
     text-align: center;
@@ -36,10 +35,12 @@ header a {
     gap: 10px;
 }
 .kegiatan img {
+    margin: 0 10%;
     flex: 1;
     width: 80%;
-=======
->>>>>>> Stashed changes
+}
+.kegiatan em{
+    margin: 0 10%;
 }
 a:hover, h3{
     color: red;
@@ -63,14 +64,6 @@ nav ul.nav {
 main{
     margin: 0 15%;
     text-align: justify;
-    display: grid;
-}
-<<<<<<< Updated upstream
-.tentang {
-=======
-.kontak p {
-    text-align: justify;
-    padding: 0 10px;
 }
 section{
     margin: 0 15%;
@@ -84,17 +77,19 @@ div.kolab img{
     height: 100px;
 }
 .tentang, main h2, .kontak h2, .center{
->>>>>>> Stashed changes
     text-align: center;
 }
+.kerja {
+    text-align: justify;
+}
 .tentang img {
-<<<<<<< Updated upstream
     width: 300px;
     height: 200px;
-=======
     width: 50%;
     margin-bottom: 20px;
->>>>>>> Stashed changes
+}
+main p{
+    margin: 0 10px;
 }
 main img{
     float: left;
@@ -104,26 +99,12 @@ main,section {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
 }
-.kegiatan{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-<<<<<<< Updated upstream
 .kontak h2{
     text-align: center;
 }
-.kontak p {
+.kontak p, .kontak h4{
     text-align: justify;
     padding: 0 10%;
-=======
-.kegiatan img {
-    flex: 1;
-    width: 80%;
->>>>>>> Stashed changes
 }
 section h3{
     text-align: center;
@@ -139,7 +120,7 @@ h4 {
     text-align: center;
 }
 input[type="submit"]{
-    width: 50%;
+    width: 30%;
     margin-bottom: 20px;
 }
 input[type="submit"]:hover {
@@ -152,13 +133,9 @@ footer{
     padding: 1px;
     text-align: center;
 }
-<<<<<<< Updated upstream
 div.kolab img{
     height: 100px;
 }
-@media screen and (max-width: 650px) {
-    nav {
-=======
 @media screen and (max-width: 800px) {
     .center p {
         text-align: left;
@@ -182,7 +159,6 @@ div.kolab img{
         flex-direction: column;
         align-items: center;
         justify-content: center;
->>>>>>> Stashed changes
         float: none;
     }
     main img {
@@ -192,10 +168,12 @@ div.kolab img{
         width: 80%;
         padding: 10px;
     }
-<<<<<<< Updated upstream
-=======
     h4 {
         margin: auto 10px;
+    }
+    .kontak p, .kontak h4{
+        padding: 0;
+        margin: 7px 10px;
     }
     .center p {
         text-align: left;
@@ -209,5 +187,4 @@ div.kolab img{
         margin: 0 auto;
         margin-bottom: 20px;
     }
->>>>>>> Stashed changes
 }
